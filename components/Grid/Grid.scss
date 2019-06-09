@@ -1,0 +1,41 @@
+.container {
+  display: block;
+  max-width: 1670px;
+  margin: auto;
+  max-height: 100%;
+  @media (min-width: 768px) {
+    width: 725px;
+  }
+
+  @media (min-width: 992px) {
+    width: 945px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1145px;
+  }
+
+  @media (min-width: 1300px) {
+    width: 1270px;
+  }
+
+  @media (min-width: 1400px) {
+    width: 1370px;
+  }
+
+  @media (min-width: 1500px) {
+    width: 1470px;
+  }
+
+  @media (min-width: 1700px) {
+    width: 1670px;
+  }
+}
+
+
+.row {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}

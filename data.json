@@ -1,0 +1,51 @@
+{
+  "SOPs": {
+  },
+  "Position": [
+    {
+      "Name": "Floor Manager"
+    },
+    {
+      "Name": "Waiter"
+    },
+    {
+      "Name": "Runner"
+    },
+    {
+      "Name": "Trainee"
+    },
+    {
+      "Name": "Bar Manager"
+    },
+    {
+      "Name": "Bartender"
+    },
+    {
+      "Name": "Barista"
+    },
+    {
+      "Name": "Cocktail Bartender"
+    },
+    {
+      "Name": "Kitchen Manager"
+    },
+    {
+      "Name": "Chef"
+    },
+    {
+      "Name": "Cook"
+    },
+    {
+      "Name": "Assistant Cook"
+    }
+  ],
+  "Users": [
+    {
+      "id": "id",
+      "firstname": "Ursula",
+      "surname": "Bless",
+      "position": "Floor Manager",
+      "date_of_birth": "2018-06-19T15:06:57-04:00"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+.data-table__checkbox {
+  cursor: pointer;
+  width: 19px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  color: #c4c6ca;
+  background: url(/static/checkbox_unchecked.png) no-repeat center;
+  border: 1px solid transparent;
+
+  &.checked {
+
+    background: url(/static/checkbox_checked.png) no-repeat center;
+  }
+
+  &.checked--partially {
+    background: url(/static/checkbox_partiallychecked.png) no-repeat center;
+  }
+}

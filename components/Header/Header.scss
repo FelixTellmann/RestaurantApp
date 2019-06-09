@@ -1,0 +1,107 @@
+.topbar {
+  height: 40px;
+  background: #3c424F;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+}
+
+.topbar__logo {
+  height: 40px;
+}
+
+.topbar__logo--img {
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  opacity: 0.5;
+}
+
+.profile__account, .profile__settings, .profile__user {
+  padding: 9px 0px 10px 10px;
+}
+
+.navbar {
+  height: 40px;
+  background: white;
+  color: #3c424F;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.navbar__nav {
+  width: 100%;
+}
+
+.nav__item {
+  padding: 10px 2px 6px 8px;
+  height: 21px;
+  transition: border 0.05s;
+  border-bottom: 3px solid #1963f600;
+  position: relative;
+}
+
+.nav__item:hover {
+  border-bottom: 3px solid #1963f6FF;
+}
+
+.nav__item--list {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style-type: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+  left: 0;
+  top: 40px;
+}
+
+.nav__item--list a {
+  border: none;
+  background-color: #fff;
+  margin-right: 0 !important;
+  line-height: 23px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px 5px 20px;
+  clear: both;
+  color: #3c424f;
+  white-space: nowrap;
+  transition: color 0.05s;
+}
+
+.nav__item--list a:hover {
+  color: #1963f6;
+}
+
+.nav__item:hover .nav__item--list {
+  display: block;
+}
+
+.nav__item--title {
+  display: block;
+  position: relative;
+}
+
+.page-header {
+  height: 80px;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+
+  h1 {
+    margin: 0 !important;
+    font-size: 24px;
+    color: #3c424f;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 28px;
+  }
+}

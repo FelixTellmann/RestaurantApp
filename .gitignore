@@ -1,0 +1,23 @@
+# development environment
+.idea
+package-backup.json
+
+# dependencies
+node_modules
+
+# testing
+
+# production
+build
+
+
+# misc
+npm-debug.log
+yarn-error.log
+*.rdb
+.storybook
+
+# security
+.env
+
+/test.json

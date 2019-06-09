@@ -1,0 +1,20 @@
+.data-table__col-header {
+  &.left {
+    text-align: left;
+  }
+  &.right {
+    text-align:right;
+  }
+  &.center {
+    text-align: center;
+  }
+}
+
+
+.col-header__icon {
+  vertical-align: middle;
+  display: none;
+  &.active {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,36 @@
+.data-table__spacer {
+  height: 28px;
+}
+
+.data-table {
+  border: 1px solid #ced0d3;
+  table-layout: fixed;
+  min-width: 900px;
+  overflow: visible;
+  margin-bottom: 0;
+  border-collapse: inherit;
+  background-color: transparent;
+  border-spacing: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+
+  & > thead {
+    & > tr {
+      & > th {
+        border: 0;
+        background-color: #636872;
+        font-weight: 700;
+        vertical-align: bottom;
+        padding: 8px;
+        position: static;
+        float: none;
+        display: table-cell;
+        font-size: 14px;
+        cursor: pointer;
+        color: #fff;
+        text-align: left;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "sop-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@shopify/polaris": "^3.10.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
+    "json-loader": "^0.5.7",
+    "mongoose": "^5.4.19",
+    "next": "^8.0.3",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-icons": "^3.7.0"
+  },
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "build": "next build",
+    "start": "next start"
+  }
+}
